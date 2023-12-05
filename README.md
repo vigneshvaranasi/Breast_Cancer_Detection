@@ -4,7 +4,18 @@
 This project aims to detect breast cancer using machine learning techniques. We use a dataset that includes various features related to breast cancer tumors, along with a target variable indicating the presence or absence of cancer.
 
 ## Dataset
-The dataset includes the following features: (mention the features here). The target variable is binary, with '1' indicating the presence of cancer and '0' indicating no cancer.
+The dataset consists of the following features related to breast cancer tumors:
+
+1. **Radius Mean:** The mean of distances from the center to points on the perimeter.
+2. **Texture Mean:** The standard deviation of gray-scale values.
+3. **Perimeter Mean:** The total length of the tumor's boundary.
+4. **Area Mean:** The area enclosed by the tumor's boundary.
+5. **Smoothness Mean:** The variation in the size of the tumor cells.
+
+The target variable is binary, with '1' indicating the presence of cancer and '0' indicating no cancer.
+
+Understanding these features is crucial for interpreting the model's predictions and gaining insights into the factors contributing to breast cancer detection.
+
 
 ## Methodology
 In this project, we employ both Logistic Regression and Linear Regression for breast cancer detection, utilizing a dataset with various tumor-related features. Here's an overview of the methodology:
